@@ -42,7 +42,7 @@ docker run --rm -ti dist-mbrl
 ### Running experiments
 The entry point for training is [train.py](dist_mbrl/train/train.py). At the bottom of
 the file, you can modify the configuration passed on to the training script. The
-agent configurations are generated in [default.py](dist_mbrl/config/default.py) and the model learning configurations are stored in this [YAML file](dist_mbrl/config/mbrl_lib_config.yaml).
+agent configurations are generated in [default.py](dist_mbrl/config/default.py) and the model learning configurations are stored in this [YAML file](dist_mbrl/config/mbrl_lib.yaml).
 ```bash
 cd {path_to_repo}/dist_mbrl
 python train/train.py

@@ -1,0 +1,7 @@
+name: dist_mbrl
+channels:
+  - defaults
+dependencies:
+  - pip
+  - python=3.10
+  - setuptools

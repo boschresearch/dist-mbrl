@@ -1,0 +1,173 @@
+acrobot-swingup
+	eqrsac mean : 217.8 +/- 18.5
+	eqrsac ofu : 229.4 +/- 17.4
+	qrmbpo mean : 202.3 +/- 18.7
+	qrmbpo ofu : 204.0 +/- 21.4
+	qusac : 220.3 +/- 30.8
+	mbpo : 57.7 +/- 19.9
+	sac : 167.7 +/- 22.4
+ball_in_cup-catch
+	eqrsac mean : 977.2 +/- 1.4
+	eqrsac ofu : 928.7 +/- 18.5
+	qrmbpo mean : 974.4 +/- 2.3
+	qrmbpo ofu : 908.3 +/- 25.1
+	qusac : 972.8 +/- 2.8
+	mbpo : 972.5 +/- 1.7
+	sac : 972.6 +/- 3.3
+cartpole-balance_sparse
+	eqrsac mean : 997.8 +/- 2.1
+	eqrsac ofu : 968.0 +/- 15.2
+	qrmbpo mean : 977.0 +/- 22.2
+	qrmbpo ofu : 894.9 +/- 42.8
+	qusac : 904.5 +/- 37.3
+	mbpo : 985.6 +/- 9.7
+	sac : 949.5 +/- 18.7
+cartpole-swingup_sparse
+	eqrsac mean : 566.4 +/- 54.4
+	eqrsac ofu : 510.6 +/- 86.9
+	qrmbpo mean : 476.2 +/- 72.6
+	qrmbpo ofu : 131.8 +/- 72.1
+	qusac : 310.6 +/- 64.3
+	mbpo : 0.1 +/- 0.1
+	sac : 693.8 +/- 27.2
+cheetah-run
+	eqrsac mean : 854.0 +/- 11.7
+	eqrsac ofu : 820.0 +/- 18.4
+	qrmbpo mean : 679.1 +/- 10.7
+	qrmbpo ofu : 598.4 +/- 16.2
+	qusac : 567.4 +/- 16.8
+	mbpo : 571.4 +/- 19.3
+	sac : 551.6 +/- 22.6
+finger-spin
+	eqrsac mean : 461.9 +/- 154.1
+	eqrsac ofu : 567.1 +/- 146.7
+	qrmbpo mean : 1.2 +/- 1.1
+	qrmbpo ofu : 734.4 +/- 89.7
+	qusac : 3.2 +/- 2.6
+	mbpo : 0.1 +/- 0.0
+	sac : 827.5 +/- 68.1
+finger-turn_easy
+	eqrsac mean : 221.3 +/- 19.9
+	eqrsac ofu : 460.5 +/- 58.3
+	qrmbpo mean : 289.8 +/- 34.1
+	qrmbpo ofu : 399.0 +/- 35.7
+	qusac : 220.0 +/- 20.0
+	mbpo : 220.0 +/- 20.0
+	sac : 571.3 +/- 31.3
+fish-swim
+	eqrsac mean : 145.1 +/- 27.3
+	eqrsac ofu : 168.3 +/- 20.4
+	qrmbpo mean : 70.0 +/- 8.7
+	qrmbpo ofu : 91.9 +/- 13.3
+	qusac : 83.8 +/- 10.0
+	mbpo : 80.6 +/- 10.0
+	sac : 79.9 +/- 10.9
+fish-upright
+	eqrsac mean : 766.2 +/- 45.3
+	eqrsac ofu : 735.0 +/- 23.5
+	qrmbpo mean : 749.9 +/- 29.1
+	qrmbpo ofu : 671.4 +/- 32.2
+	qusac : 591.9 +/- 53.5
+	mbpo : 660.5 +/- 59.5
+	sac : 579.4 +/- 50.8
+pendulum-swingup
+	eqrsac mean : 834.4 +/- 15.7
+	eqrsac ofu : 833.7 +/- 16.0
+	qrmbpo mean : 819.2 +/- 17.2
+	qrmbpo ofu : 796.9 +/- 25.2
+	qusac : 808.6 +/- 19.7
+	mbpo : 484.5 +/- 76.4
+	sac : 631.0 +/- 111.7
+quadruped-escape
+	eqrsac mean : 54.2 +/- 16.7
+	eqrsac ofu : 41.1 +/- 11.4
+	qrmbpo mean : 34.5 +/- 7.1
+	qrmbpo ofu : 32.4 +/- 5.0
+	qusac : 13.7 +/- 4.3
+	mbpo : 8.8 +/- 1.8
+	sac : 8.0 +/- 1.2
+quadruped-run
+	eqrsac mean : 719.8 +/- 19.0
+	eqrsac ofu : 712.5 +/- 23.6
+	qrmbpo mean : 638.5 +/- 26.0
+	qrmbpo ofu : 532.6 +/- 19.0
+	qusac : 421.9 +/- 16.8
+	mbpo : 232.3 +/- 41.2
+	sac : 352.0 +/- 36.4
+quadruped-walk
+	eqrsac mean : 844.3 +/- 26.8
+	eqrsac ofu : 849.2 +/- 17.1
+	qrmbpo mean : 815.1 +/- 25.4
+	qrmbpo ofu : 739.4 +/- 38.2
+	qusac : 734.8 +/- 26.5
+	mbpo : 360.1 +/- 95.1
+	sac : 245.5 +/- 57.4
+reacher-easy
+	eqrsac mean : 931.2 +/- 21.5
+	eqrsac ofu : 977.9 +/- 2.5
+	qrmbpo mean : 968.6 +/- 9.8
+	qrmbpo ofu : 959.1 +/- 13.2
+	qusac : 943.1 +/- 13.8
+	mbpo : 937.5 +/- 16.7
+	sac : 824.6 +/- 21.9
+reacher-hard
+	eqrsac mean : 919.6 +/- 15.7
+	eqrsac ofu : 965.3 +/- 9.8
+	qrmbpo mean : 921.8 +/- 22.2
+	qrmbpo ofu : 905.0 +/- 31.6
+	qusac : 635.0 +/- 139.5
+	mbpo : 291.9 +/- 146.3
+	sac : 797.5 +/- 38.8
+walker-run
+	eqrsac mean : 727.4 +/- 24.3
+	eqrsac ofu : 779.3 +/- 7.9
+	qrmbpo mean : 725.5 +/- 10.8
+	qrmbpo ofu : 698.9 +/- 13.7
+	qusac : 553.8 +/- 30.9
+	mbpo : 474.3 +/- 20.8
+	sac : 568.9 +/- 19.1
+Mean
+	eqrsac mean (100): 0.58 (0.52, 0.63)
+	eqrsac mean (250): 0.64 (0.59, 0.69)
+	eqrsac ofu (100): 0.56 (0.51, 0.61)
+	eqrsac ofu (250): 0.66 (0.61, 0.71)
+	qrmbpo mean (100): 0.48 (0.41, 0.53)
+	qrmbpo mean (250): 0.58 (0.53, 0.64)
+	qrmbpo ofu (100): 0.46 (0.40, 0.51)
+	qrmbpo ofu (250): 0.58 (0.53, 0.63)
+	qusac (100): 0.44 (0.39, 0.50)
+	qusac (250): 0.50 (0.45, 0.55)
+	mbpo (100): 0.38 (0.32, 0.44)
+	mbpo (250): 0.40 (0.34, 0.45)
+	sac (100): 0.52 (0.47, 0.58)
+	sac (250): 0.55 (0.51, 0.60)
+Median
+	eqrsac mean (100): 0.57 (0.51, 0.64)
+	eqrsac mean (250): 0.65 (0.58, 0.70)
+	eqrsac ofu (100): 0.57 (0.50, 0.64)
+	eqrsac ofu (250): 0.66 (0.60, 0.71)
+	qrmbpo mean (100): 0.48 (0.41, 0.55)
+	qrmbpo mean (250): 0.59 (0.52, 0.65)
+	qrmbpo ofu (100): 0.46 (0.41, 0.53)
+	qrmbpo ofu (250): 0.59 (0.53, 0.64)
+	qusac (100): 0.45 (0.38, 0.50)
+	qusac (250): 0.51 (0.44, 0.56)
+	mbpo (100): 0.37 (0.32, 0.45)
+	mbpo (250): 0.40 (0.33, 0.47)
+	sac (100): 0.53 (0.45, 0.58)
+	sac (250): 0.57 (0.49, 0.61)
+IQM
+	eqrsac mean (100): 0.63 (0.54, 0.71)
+	eqrsac mean (250): 0.73 (0.65, 0.81)
+	eqrsac ofu (100): 0.61 (0.52, 0.69)
+	eqrsac ofu (250): 0.76 (0.69, 0.81)
+	qrmbpo mean (100): 0.46 (0.37, 0.57)
+	qrmbpo mean (250): 0.65 (0.56, 0.72)
+	qrmbpo ofu (100): 0.46 (0.38, 0.55)
+	qrmbpo ofu (250): 0.64 (0.57, 0.70)
+	qusac (100): 0.41 (0.32, 0.51)
+	qusac (250): 0.51 (0.42, 0.59)
+	mbpo (100): 0.30 (0.22, 0.40)
+	mbpo (250): 0.32 (0.24, 0.42)
+	sac (100): 0.54 (0.46, 0.61)
+	sac (250): 0.59 (0.51, 0.65)

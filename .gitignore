@@ -1,0 +1,6 @@
+.vscode/
+.devcontainer/
+*.pyc
+*.svg
+*.pdf
+*.egg-info/

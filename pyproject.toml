@@ -1,0 +1,83 @@
+[build-system]
+requires = ["setuptools", "wheel", "tomli"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dist_mbrl"
+description = "Value-Distributional Model-Based Reinforcement Learning"
+version = "0.1"
+authors = [
+  {name = "Carlos Luis", email = "carlosenrique.luisgoncalves@de.bosch.com"},
+]
+classifiers=[
+    "License :: Other/Proprietary License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "ipython~=8.1.0",
+    "ipykernel~=6.15.2",
+    "ipympl~=0.8.8",
+    "matplotlib~=3.5.1",
+    "numpy~=1.22",
+    "ruff~=0.5.5",
+    "torch==1.13.0",
+    "scipy~=1.8",
+    "imageio-ffmpeg~=0.4.7",
+    "gymnasium[classic-control,mujoco]==0.29.0",
+    "shimmy[dm-control]~=0.2",
+    "rlberry~=0.3.0",
+    "pyvirtualdisplay~=3.0",
+    # mbrl-lib
+    "hydra-core==1.3.0",
+    "termcolor>=1.1.0",
+    "imageio>=2.9.0",
+    "tqdm>=4.48.2",
+    # rliable 
+    "rliable~=1.0.8"
+]
+dynamic = ["readme"]
+
+############# RUFF ####################
+[tool.ruff]
+lint.select = [
+    "F", # Pyflakes
+    "I", # Isort (sorted imports)
+    "TID252",  # Disallow relative imports (only from parents, see below)
+]
+
+# Also format jupyter notebooks
+extend-include = ["*.ipynb"]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = [
+    "F401", # Unused imports
+    "F403", # * imports
+    "I002",  # Required imports
+]
+
+[tool.ruff.lint.isort]
+detect-same-package = false  # Manually specified below
+known-first-party = ["prob_ssm"]  # Modules we develop
+combine-as-imports = true  # Group multiple imports from the same module
+section-order = [
+    "future",
+    "standard-library",
+    "third-party",
+    "first-party",
+    "local-folder",
+]
+
+[tool.ruff.lint.flake8-tidy-imports]
+ban-relative-imports = "parents"  # Disallow relative imports from parent directories
+
+[project.urls]
+homepage = "https://github.com/boschresearch/dist-mbrl"
+repository = "https://github.com/boschresearch/dist-mbrl"
+
+[tool.setuptools.packages.find]
+include = ["dist_mbrl*"]
+
+[tool.setuptools.dynamic]
+readme = {file = "README.md"}
